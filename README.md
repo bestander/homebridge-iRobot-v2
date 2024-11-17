@@ -49,6 +49,7 @@ Once the latest iOS 18 update is released, I will update the plugin to support t
 | i3        | yes       | [taurgis](https://github.com/taurgis)             |
 | 980       | No        | [jeanchrijaz](https://github.com/jeanchrijaz)     |
 | i9        | Yes       | [douginoz](https://github.com/douginoz)           |
+| s9        | Yes       | [cheese-maker](https://github.com/cheese-maker)   |
 | s9+       | Yes       | [bigadron](https://github.com/bigadron).          |
 | 960       | No        | [MathiasBrendel](https://github.com/MathiasBrendal)           |
 | 965       | Yes       | [bloomkd46](https://github.com/bloomkd46)         |
