@@ -1,3 +1,7 @@
+### 3.2.4-alpha.2 
+- Add checks to the manual config that can cause a fatal crash
+
+
 ### 3.2.4-alpha.0 
 - Update email and password check to not run when doing manual config
 
