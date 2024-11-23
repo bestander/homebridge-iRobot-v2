@@ -1,3 +1,7 @@
+### 3.2.4-alpha.0 
+- Update email and password check to not run when doing manual config
+
+
 ### 3.2.3 
 - Added a fallback mechanism to the iRobot login system to first check authentication URL 1, and if it fails, fall back to URL 2
 
