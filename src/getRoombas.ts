@@ -26,6 +26,11 @@ export function getRoombas(email: string, password: string, log: Logger, config:
 
     robots.forEach(robot => {
         if (robot.autoConfig || !config.autoDiscovery) {
+            if (!robot.name || !robot.blid || !robot.password) {
+                log.error('Skipping configuration for roomba:', robot.name, 'due to missing name, blid or password');
+                return;
+            }
+
             log.info('Configuring roomba:', robot.name);
 
             const robotIP = child_process.execFileSync(__dirname + '/scripts/getRoombaIP.js', [robot.blid]).toString();
