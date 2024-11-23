@@ -46,7 +46,7 @@ export class iRobotPlatform implements DynamicPlatformPlugin {
    * Register discovered devices as accessories.
    */
     discoverDevices() {
-        if (this.config.email === undefined || this.config.password === undefined) {
+        if (!this.config.manualDiscovery && (this.config.email === undefined || this.config.password === undefined)) {
             this.log.warn('No email or password provided. Exiting setup');
 
             return;
