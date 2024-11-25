@@ -1,3 +1,8 @@
+### 3.2.4 
+- Conduct account checks only when needed.
+- Introduced sanity checks to avoid complete app failure when configuration files are incomplete.
+
+
 ### 3.2.4-alpha.2 
 - Add checks to the manual config that can cause a fatal crash
 
