@@ -42,6 +42,7 @@ Once the latest iOS 18 update is released, I will update the plugin to support t
 | i5        | Yes       | [jandrade45](https://github.com/jandrade45)       |
 | i7        | Yes       | [Clouder59](https://github.com/Clouder59)         |
 | 606       | No        | [PvdGulik](https://github.com/PvdGulik)           |
+| 690       | No        | [gabe-calabro](https://github.com/gabe-calabro)   |
 | 698       | No        | [jojoballa](https://github.com/jojoballa)         |
 | Braava m6 | Yes       | [taurgis](https://github.com/taurgis)             |
 | m6        | Yes       | [ginoledesma](https://github.com/ginoledesma)     |
