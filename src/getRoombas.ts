@@ -10,7 +10,7 @@ export function getRoombas(email: string, password: string, log: Logger, config:
     } else {
         log.info('Logging into iRobot...');
 
-        const Robots = child_process.execFileSync('node', ['__dirname + '/scripts/getRoombaCredentials.js', email, password]).toString();
+        const Robots = child_process.execFileSync('node', [__dirname + '/scripts/getRoombaCredentials.js', email, password]).toString();
 
         try {
             robots = JSON.parse(Robots);
